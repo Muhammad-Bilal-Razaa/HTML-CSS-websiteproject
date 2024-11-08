@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="icon" href="/images/education-favicon.png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<!-- navigation bar -->
+<nav >
+
+    <ul >
+        <a href="/index.html" style="margin-right: 450px;">Home</a>
+    <li><a href="/registration.html">Student-Registration</a></li>
+    <li><a href="/attendance.html">Student-Attendence</a></li>
+    <li><a href="/about.html">Contact US</a></li>
+    
+    </ul>
+    </nav>
+
+    <H1><i>Welcome , To Student's Online Registration For Class IIX,IX, & X</i></H1>
+    <h3>Plesae, Fill out this form With correct Information</h3> <br>
+  
+<form id="student-form">
+
+<label for="name" class="student-form">Student Name :</label>
+<input type="text" placeholder="Enter your name" id="name" required><br><br>
+
+<label for="fname"class="student-form">Father-Name :</label>
+<input type="text" placeholder="Enter your  Father-name" id="fname" required><br><br>
+
+<label for="gender" class="gender">Gender :</label>
+<input type="radio" name="gender" class="gender" required >
+<label for="gender" class="gender">Male</label>
+<input type="radio" name="gender" class="gender" required >
+<label for="gender" class="gender">Female</label><br><br>
+
+<label for="email" class="student-form">Email :</label>
+<input type="email" placeholder="Enter your Email" id="email" required><br><br>
+
+<label for="phone" class="student-form">Phone Number  :</label>
+<input type="number" placeholder="Enter your Phone-Number" id="phone" required><br><br>
+
+<label for="dob" class="student-form">D.O.B :</label>
+<input type="date" placeholder="Enter Your D.O.B" id="dob" required><br><br>
+
+<label for="age" class="student-form">Age :</label>
+<input type="number" placeholder="Enter your Age" id="age" required><br><br>
+
+<label for="cnic" class="student-form">CNIC :</label>
+<input type="number" placeholder="Enter your CNIC Number" id="cnic" required><br><br>
+
+
+<label for="f-cnic" class="student-form">Father-CNIC (optional) :</label>
+<input type="number" placeholder="Father's CNIC Number" id="f-cnic"><br><br>
+
+<label for="address" class="student-form">Address :</label>
+<input type="text" placeholder="Enter your Address" id="address"  ><br><br>
+
+<label for="file" class="student-form">Upload Image :</label>
+<input type="file" placeholder="Upload iamge(white/Blue Background)" id="file" ><br><br>
+
+<label for="lists" class="student-form">Faculty :</label>
+<select name="student-form" id="lists" required>
+    <option value="commerce">Commerce</option>
+    <option value="arts">Arts</option>
+    <option value="pre-engineering">Pre-Engineering</option>
+    <option value="pre-medical">Pre-Medical</option>
+    <option value="computer-science">Computer-Science</option>
+</select> <br><br>
+
+<label for="feedback">Feedback</label><br>
+<textarea name="feedback" id="feedback" rows="5">Feedback  Here:</textarea> <br><br>
+ <button type="submit">Sbmit form</button &nbsp;>
+ <button type="reset">Reset</button >
+
+
+
+
+    </form>
+    
+</body>
+</html>
